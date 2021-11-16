@@ -10,19 +10,16 @@ const Page = () =>
 
     useEffect(() =>
         {
-            setTimeout(() => setStarting(false), 1000);
+            setTimeout(() => setStarting(false), 2000);
         }, []
     )
 
-    if(!starting)
-    {
-        return (
-            <Layout>
-                <Topper />
-            </Layout>
-        );
-    }
-    else return <Starting />
+    return (
+        <Layout>
+            <Starting active={starting} />
+            <Topper />
+        </Layout>
+    );
 }
 
 export default Page;
