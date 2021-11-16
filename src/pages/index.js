@@ -10,7 +10,7 @@ const Page = () =>
 
     useEffect(() =>
         {
-            setTimeout(() => setStarting(false), 2000);
+            setTimeout(() => setStarting(false), 1300);
         }, []
     )
 
