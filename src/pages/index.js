@@ -3,6 +3,7 @@ import Article from "../components/article/article";
 import CallToAction from "../components/callToAction/callToAction";
 import Entrepreneurs from "../components/entrepreneurs/entrepreneurs";
 import Layout from "../components/layout/layout";
+import Partners from "../components/partners/partners";
 import Starting from "../components/starting/starting";
 import Topper from "../components/topper/topper";
 
@@ -32,6 +33,7 @@ const Page = () =>
             <Topper />
             <Entrepreneurs />
             <CallToAction />
+            <Partners />
         </Layout>
     );
 }
