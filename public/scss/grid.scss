@@ -1,0 +1,55 @@
+$gutter: 40;
+$columns: 12;
+$sizes: ('small': 576, 'medium': 768, 'big': 960, 'large': 1152, 'huge': 1344);
+
+.container
+{
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+    max-width: 1344px;
+
+    @media screen and (min-width: 576px) { padding: 0 40px; }
+    &.fluid { padding: 0; }
+}
+
+.row
+{
+    display: grid;
+    grid-gap: $gutter * 1px;
+
+    &.no-gap { grid-gap: 0; }
+    &+ .row { margin-top: $gutter * 1px; }
+}
+
+.spacer-horizontal-small { margin-right: 8px; }
+.spacer-horizontal { margin-right: 16px; }
+.spacer-horizontal-big { margin-right: 32px; }
+.spacer-horizontal-large { margin-right: 40px; }
+
+.spacer-vertical-small { margin-top: 8px; }
+.spacer-vertical { margin-top: 16px; }
+.spacer-vertical-big { margin-top: 32px; }
+.spacer-vertical-large { margin-top: 40px; }
+
+.display-none { display: none !important; }
+.display-flex { display: flex !important; }
+.display-block { display: block !important; }
+
+@each $modifier, $width in $sizes 
+{
+    @media screen and (min-width: $width * 1px)
+    {
+        .display-#{$modifier}-none { display: none !important; }
+        .display-#{$modifier}-flex { display: flex !important; }
+        .display-#{$modifier}-block { display: block !important; }
+        .display-#{$modifier}-table-cell { display: table-cell !important; }
+
+        @for $index from 1 to $columns
+        {
+            .row.#{$modifier}-#{$index} { grid-template-columns: repeat($index, 1fr); }
+            .offset-#{$modifier}-#{$index} { grid-column-start: $index + 1; }
+            .column-#{$modifier}-#{$index} { grid-column: span $index; }
+        }
+    }
+}
