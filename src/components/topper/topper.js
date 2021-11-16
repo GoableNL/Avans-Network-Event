@@ -15,6 +15,8 @@ const Topper = () =>
             gsap.to(imageRef, 
                 {
                     scale: 1.2,
+                    rotate: 8,
+                    ease: 'power4',
                     scrollTrigger: 
                     {
                         trigger: imageRef,
