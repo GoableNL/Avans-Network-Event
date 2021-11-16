@@ -54,7 +54,7 @@ const Entrepreneurs = () =>
         
                                 <div className={style.body}>
                                     <h3 className={style.title}>
-                                        <span className={style.orange}>{index + 1})</span> {element.name}
+                                        {index + 1}. {element.name}
                                     </h3>
         
                                     <div className={'spacer-vertical-small'} />

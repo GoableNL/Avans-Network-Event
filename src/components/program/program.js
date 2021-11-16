@@ -87,7 +87,7 @@ const Program = () =>
                         <div key={index}>
                             <div className={style.item}>
                                 <h3 className={style.title}>
-                                    <span className={style.orange}>{index + 1})</span> {element.title}
+                                    {index + 1}. {element.title}
                                 </h3>
         
                                 <div className={'spacer-vertical'} />
