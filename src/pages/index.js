@@ -10,9 +10,19 @@ const Page = () =>
 
     useEffect(() =>
         {
+            window.
             setTimeout(() => setStarting(false), 1500);
         }, []
-    )
+    );
+
+    useEffect(() =>
+        {
+            const body = document.querySelector('body');
+            
+            if(starting) body.style.overflow = 'hidden';
+            else body.style.overflow = 'auto';
+        }, [starting]
+    );
 
     return (
         <Layout>
