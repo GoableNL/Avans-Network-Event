@@ -10,7 +10,7 @@ const Page = () =>
 
     useEffect(() =>
         {
-            window.
+            window.scrollTo(0, 0);
             setTimeout(() => setStarting(false), 1500);
         }, []
     );
@@ -18,7 +18,7 @@ const Page = () =>
     useEffect(() =>
         {
             const body = document.querySelector('body');
-            
+
             if(starting) body.style.overflow = 'hidden';
             else body.style.overflow = 'auto';
         }, [starting]
