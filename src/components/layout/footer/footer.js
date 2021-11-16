@@ -10,7 +10,7 @@ const Footer = () =>
                 </p>
 
                 <p className={style.author}>
-                    Created by <a target={'_blank'} href={'https://www.goable.nl'}>Goable</a>
+                    Created by <a href={'https://www.goable.nl'}>Goable</a>
                 </p>
             </div>
         </div>

@@ -44,8 +44,8 @@ const Entrepreneurs = () =>
             <div className={'row small-2 medium-3'}>
                 {data.map((element, index) =>
                     (
-                        <div>
-                            <div className={style.entrepreneur} key={index}>
+                        <div key={index}>
+                            <div className={style.entrepreneur}>
                                 <img className={style.image} src={'/image/entrepreneur.jpg'} />
         
                                 <div className={style.body}>

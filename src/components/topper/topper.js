@@ -52,7 +52,7 @@ const Topper = () =>
                             </span>
                         </div>
 
-                        <a target={'_blank'} href={`https://www.google.nl/maps/place/Victorialaan+21,+5213+JG+'s-Hertogenbosch/@51.7014353,5.3266584,17z/data=!3m1!4b1!4m5!3m4!1s0x47c6efb2f45f3091:0xb760be8eeb2b553a!8m2!3d51.701432!4d5.3288471`}>
+                        <a href={`https://www.google.nl/maps/place/Victorialaan+21,+5213+JG+'s-Hertogenbosch/@51.7014353,5.3266584,17z/data=!3m1!4b1!4m5!3m4!1s0x47c6efb2f45f3091:0xb760be8eeb2b553a!8m2!3d51.701432!4d5.3288471`}>
                             <div className={style.point}>
                                 <LocationMarkerIcon height={20} />
 
