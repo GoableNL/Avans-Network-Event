@@ -11,17 +11,38 @@
             background: #F4F8FB;
             border-radius: 8px 0 0 8px;
             
-            .title
+            &>.title
             {
                 font-size: 60px;
                 font-weight: 900;
 
                 @media screen and (max-width: 1152px) { font-size: 50px; }
             }
+
+            .points
+            {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+
+                .point
+                {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 32px;
+
+                    &>.title { font-weight: 600; }
+                    &:not(&:last-child) { margin-right: 16px; }
+                }
+            }
         }
 
         &:last-child 
         {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             background: #27996C; 
             border-radius: 0 8px 8px 0;
         }

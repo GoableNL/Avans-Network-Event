@@ -1,4 +1,4 @@
-import { ArrowCircleDownIcon } from "@heroicons/react/outline";
+import { ArrowCircleDownIcon, CalendarIcon, ClockIcon, LocationMarkerIcon, PlusCircleIcon } from "@heroicons/react/outline";
 import style from "./style.module.scss";
 
 const Topper = () =>
@@ -29,6 +29,40 @@ const Topper = () =>
                         <span>
                             Lees meer
                         </span>
+                    </div>
+
+                    <div className={style.points}>
+                        <div className={style.point}>
+                            <CalendarIcon height={20} />
+
+                            <div className={'spacer-horizontal-small'} />
+
+                            <span className={style.title}>
+                                8 December
+                            </span>
+                        </div>
+
+                        <div className={style.point}>
+                            <ClockIcon height={20} />
+
+                            <div className={'spacer-horizontal-small'} />
+
+                            <span className={style.title}>
+                                14:00
+                            </span>
+                        </div>
+
+                        <a target={'_blank'} href={`https://www.google.nl/maps/place/Victorialaan+21,+5213+JG+'s-Hertogenbosch/@51.7014353,5.3266584,17z/data=!3m1!4b1!4m5!3m4!1s0x47c6efb2f45f3091:0xb760be8eeb2b553a!8m2!3d51.701432!4d5.3288471`}>
+                            <div className={style.point}>
+                                <LocationMarkerIcon height={20} />
+
+                                <div className={'spacer-horizontal-small'} />
+
+                                <span className={style.title}>
+                                    FC Den Bosch
+                                </span>
+                            </div>
+                        </a>
                     </div>
                 </div>
 
