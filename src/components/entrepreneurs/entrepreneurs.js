@@ -27,7 +27,7 @@ const data =
 
 const Entrepreneurs = () =>
 (
-    <section className={style.entrepreneurs}>
+    <section className={style.entrepreneurs} id={'entrepreneurs'}>
         <div className={'container'}>
             <div className={'row medium-2'}>
                 <div>

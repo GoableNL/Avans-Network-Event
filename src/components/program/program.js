@@ -63,7 +63,7 @@ const data =
 
 const Program = () =>
 (
-    <section className={style.program}>
+    <section className={style.program} id={'program'}>
         <div className={'container'}>
             <div className={'row medium-2'}>
                 <div>

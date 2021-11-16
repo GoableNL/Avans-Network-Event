@@ -21,13 +21,13 @@ const Topper = () =>
 
                     <div className={'spacer-vertical-big'} />
 
-                    <div className={'button'}>
+                    <div className={'button'} onClick={() => document.getElementById('entrepreneurs').scrollIntoView()}>
                         <ArrowCircleDownIcon height={20} />
 
                         <div className={'spacer-horizontal-small'} />
 
                         <span>
-                            Lees meer
+                            Ondernemers
                         </span>
                     </div>
 

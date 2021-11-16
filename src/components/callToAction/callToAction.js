@@ -18,13 +18,13 @@ const CallToAction = () =>
 
                 <div className={'spacer-vertical-big'} />
 
-                <div className={`${style.button} button`}>
+                <div className={`${style.button} button`} onClick={() => document.getElementById('entrepreneurs').scrollIntoView()}>
                     <ArrowCircleUpIcon height={20} />
 
                     <div className={'spacer-horizontal-small'} />
 
                     <span>
-                        Lees meer
+                        Ondernemers
                     </span>
                 </div>
             </div>

@@ -10,7 +10,7 @@ const Header = () =>
                     Ane.
                 </h1>
 
-                <div className={'button'}>
+                <div className={'button'} onClick={() => document.getElementById('program').scrollIntoView()}>
                     <CalendarIcon height={20} />
 
                     <div className={'spacer-horizontal-small'} />
