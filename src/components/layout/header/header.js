@@ -16,7 +16,7 @@ const Header = () =>
                     <div className={'spacer-horizontal-small'} />
 
                     <span>
-                        Maandag, 16 December
+                        16 December
                     </span>
                 </div>
             </div>
