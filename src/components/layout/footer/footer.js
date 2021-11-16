@@ -9,8 +9,8 @@ const Footer = () =>
                     Copyright &copy; 2021
                 </p>
 
-                <p>
-                    Created by <a href={'https://www.goable.nl'}>Goable</a>
+                <p className={style.author}>
+                    Created by <a target={'_blank'} href={'https://www.goable.nl'}>Goable</a>
                 </p>
             </div>
         </div>

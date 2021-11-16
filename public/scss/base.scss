@@ -36,4 +36,6 @@ button, input[type=submit], .button
     border: none;
     border-radius: 8px;
     cursor: pointer;
+
+    &.green { background: #27996C; }
 }

@@ -1,0 +1,40 @@
+.entrepreneurs
+{
+    padding: 80px 0;
+
+    .entrepreneur
+    {
+        background: #F4F8FB;
+        border-radius: 8px;
+        
+        .image
+        {
+            border-radius: 8px 8px 0 0;
+            width: 100%;
+        }
+
+        .body
+        {
+            padding: 40px;
+            border-radius: 0 0 8px 8px;
+
+            .points
+            {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+
+                .point
+                {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 32px;
+
+                    &>.title { font-weight: 600; }
+                    &:not(&:last-child) { margin-right: 16px; }
+                }
+            }
+        }
+    }
+}
