@@ -23,23 +23,27 @@ const data =
         name: 'Jonas ter Horst',
         description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies.'
     }
-]
+];
 
 const Entrepreneurs = () =>
 (
     <section className={style.entrepreneurs}>
         <div className={'container'}>
-            <h2>
-                Ondernemers
-            </h2>
+            <div className={'row medium-2'}>
+                <div>
+                    <h2>
+                    Ondernemers
+                    </h2>
 
-            <div className={'spacer-vertical-small'} />
+                    <div className={'spacer-vertical-small'} />
 
-            <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-            </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                    </p>
 
-            <div className={'spacer-vertical-large'} />
+                    <div className={'spacer-vertical-large'} />
+                </div>
+            </div>
 
             <div className={'row small-2 medium-3'}>
                 {data.map((element, index) =>
@@ -50,7 +54,7 @@ const Entrepreneurs = () =>
         
                                 <div className={style.body}>
                                     <h3 className={style.title}>
-                                        {element.name}
+                                        <span className={style.orange}>{index + 1})</span> {element.name}
                                     </h3>
         
                                     <div className={'spacer-vertical-small'} />

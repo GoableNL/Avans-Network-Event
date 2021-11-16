@@ -5,11 +5,12 @@ const Partners = () =>
     <section className={style.partners}>
         <div className={'container'}>
             <div className={style.wrapper}>
-                <img className={style.partner} src={'/image/partners/1.png'} alt={'Avans Hogeschool'} height={50} />
-                <img className={style.partner} src={'/image/partners/2.png'} alt={'FC Den Bosch'} height={70} />
-                <img className={style.partner} src={'/image/partners/1.png'} alt={'Avans Hogeschool'} height={50} />
-                <img className={style.partner} src={'/image/partners/1.png'} alt={'Avans Hogeschool'} height={50} />
-                <img className={style.partner} src={'/image/partners/1.png'} alt={'Avans Hogeschool'} height={50} />
+                <img className={style.partner} src={'/image/partners/1.png'} alt={'Avans Hogeschool'} height={40} />
+                <img className={style.partner} src={'/image/partners/2.png'} alt={'FC Den Bosch'} height={60} />
+                <img className={style.partner} src={'/image/partners/1.png'} alt={'Avans Hogeschool'} height={40} />
+                <img className={style.partner} src={'/image/partners/2.png'} alt={'FC Den Bosch'} height={60} />
+                <img className={style.partner} src={'/image/partners/1.png'} alt={'Avans Hogeschool'} height={40} />
+                <img className={style.partner} src={'/image/partners/2.png'} alt={'FC Den Bosch'} height={60} />
             </div>
         </div>
     </section>
