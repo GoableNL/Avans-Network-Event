@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
-import Article from "../components/article/article";
 import CallToAction from "../components/callToAction/callToAction";
 import Entrepreneurs from "../components/entrepreneurs/entrepreneurs";
 import Layout from "../components/layout/layout";
+import Partners from "../components/partners/partners";
+import Program from "../components/program/program";
 import Starting from "../components/starting/starting";
 import Topper from "../components/topper/topper";
 
@@ -30,8 +31,10 @@ const Page = () =>
         <Layout>
             <Starting active={starting} />
             <Topper />
+            <Program />
             <Entrepreneurs />
             <CallToAction />
+            <Partners />
         </Layout>
     );
 }
