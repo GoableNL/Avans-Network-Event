@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Topper = () =>
 {
-    let imageRef = useRef();
+    /*let imageRef = useRef();
 
     useEffect(() =>
         {
@@ -27,7 +27,7 @@ const Topper = () =>
                 }
             );
         }, []
-    );
+    );*/
 
     return (
         <section className={style.topper}>
@@ -65,7 +65,7 @@ const Topper = () =>
                                 <div className={'spacer-horizontal-small'} />
 
                                 <span className={style.title}>
-                                    8 December
+                                    16 December
                                 </span>
                             </div>
 
@@ -94,7 +94,7 @@ const Topper = () =>
                     </div>
 
                     <div className={style.column}>
-                        <img src={'/image/topper.png'} width={'100%'} ref={el => imageRef = el} />
+
                     </div>
                 </div>
             </div>

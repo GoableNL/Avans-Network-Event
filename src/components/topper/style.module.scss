@@ -40,10 +40,9 @@
 
         &:last-child 
         {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: #27996C; 
+            min-height: 400px;
+            background: url('/image/topper.jpeg') center center no-repeat;
+            background-size: cover; 
             border-radius: 0 8px 8px 0;
         }
     }
