@@ -34,5 +34,9 @@ button, input[type=submit], .button
     cursor: pointer;
     box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.1);
 
-    &.green { background: #27996C; }
+    &.white 
+    {
+        background: #FFFFFF; 
+        color: #000000;
+    }
 }

@@ -18,7 +18,7 @@ const CallToAction = () =>
 
                 <div className={'spacer-vertical-big'} />
 
-                <div className={`${style.button} button`} onClick={() => document.getElementById('entrepreneurs').scrollIntoView()}>
+                <div className={`${style.button} button white`} onClick={() => document.getElementById('entrepreneurs').scrollIntoView()}>
                     <ArrowCircleUpIcon height={20} />
 
                     <div className={'spacer-horizontal-small'} />
