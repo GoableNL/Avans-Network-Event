@@ -4,7 +4,7 @@ import style from "./style.module.scss";
 const data =
 [
     {
-        name: 'Jonas ter Horst',
+        name: 'Ray Klaassens',
         description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies.'
     },
     {
