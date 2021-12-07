@@ -31,7 +31,7 @@ const Page = () =>
         <Layout>
             <Starting active={starting} />
             <Topper />
-            <Program />
+            {/*<Program />*/}
             <Entrepreneurs />
             <CallToAction />
             <Partners />

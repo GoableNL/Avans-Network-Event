@@ -4,25 +4,25 @@ import style from "./style.module.scss";
 const data =
 [
     {
-        name: 'Ray Klaassens',
-        description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies.'
+        name: 'Onbekend',
+        description: '...'
     },
     {
-        name: 'Jonas ter Horst',
-        description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies.'
+        name: 'Onbekend',
+        description: '...'
     },
     {
-        name: 'Jonas ter Horst',
-        description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies.'
+        name: 'Onbekend',
+        description: '...'
     },
     {
-        name: 'Jonas ter Horst',
-        description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies.'
+        name: 'Onbekend',
+        description: '...'
     },
     {
-        name: 'Jonas ter Horst',
-        description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies.'
-    }
+        name: 'Onbekend',
+        description: '...'
+    },
 ];
 
 const Entrepreneurs = () =>

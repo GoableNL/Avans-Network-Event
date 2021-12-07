@@ -75,18 +75,18 @@ const Topper = () =>
                                 <div className={'spacer-horizontal-small'} />
 
                                 <span className={style.title}>
-                                    14:00
+                                    13:30
                                 </span>
                             </div>
 
-                            <a href={`https://www.google.nl/maps/place/Victorialaan+21,+5213+JG+'s-Hertogenbosch/@51.7014353,5.3266584,17z/data=!3m1!4b1!4m5!3m4!1s0x47c6efb2f45f3091:0xb760be8eeb2b553a!8m2!3d51.701432!4d5.3288471`}>
+                            <a href={`https://www.google.nl/maps/place/Statenlaan+29,+5223+LA+'s-Hertogenbosch/@51.6897816,5.2872429,17z/data=!3m1!4b1!4m5!3m4!1s0x47c6ee8994db424f:0x3127608d085576fc!8m2!3d51.6897783!4d5.2894316`}>
                                 <div className={style.point}>
                                     <LocationMarkerIcon height={20} />
 
                                     <div className={'spacer-horizontal-small'} />
 
                                     <span className={style.title}>
-                                        FC Den Bosch
+                                        Statenlaan 29-67
                                     </span>
                                 </div>
                             </a>
