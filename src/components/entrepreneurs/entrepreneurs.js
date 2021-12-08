@@ -18,11 +18,7 @@ const data =
     {
         name: 'Onbekend',
         description: '...'
-    },
-    {
-        name: 'Onbekend',
-        description: '...'
-    },
+    }
 ];
 
 const Entrepreneurs = () =>
@@ -32,7 +28,7 @@ const Entrepreneurs = () =>
             <div className={'row medium-2'}>
                 <div>
                     <h2>
-                    Ondernemers
+                        Ondernemers
                     </h2>
 
                     <div className={'spacer-vertical-small'} />
@@ -45,7 +41,7 @@ const Entrepreneurs = () =>
                 </div>
             </div>
 
-            <div className={'row small-2 medium-3'}>
+            <div className={'row small-2 medium-4'}>
                 {data.map((element, index) =>
                     (
                         <div key={index}>
