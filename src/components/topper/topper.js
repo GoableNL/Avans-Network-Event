@@ -86,7 +86,7 @@ const Topper = () =>
                                     <div className={'spacer-horizontal-small'} />
 
                                     <span className={style.title}>
-                                        Statenlaan 29-67
+                                        Statenlaan 29
                                     </span>
                                 </div>
                             </a>

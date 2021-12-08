@@ -4,61 +4,33 @@ import style from "./style.module.scss";
 const data =
 [
     {
-        title: 'Introductie',
-        description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. ',
+        title: 'Verzamelen',
+        description: ' Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
         time: '14:00',
-        location: 'FC Den Bosch',
+        location: 'Stratenlaan 29',
         type: 'Speeddates'
     },
     {
-        title: 'Speeddate ondernemers',
-        description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. ',
-        time: '14:15',
-        location: 'FC Den Bosch',
+        title: 'Verzamelen Ondernemers',
+        description: ' Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+        time: '14:30',
+        location: 'Stratenlaan 29',
         type: 'Speeddates'
     },
     {
-        title: 'Afsluitig',
-        description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. ',
-        time: '16:00',
-        location: 'FC Den Bosch',
+        title: 'Start Speeddates',
+        description: ' Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+        time: '14:45',
+        location: 'Stratenlaan 29',
         type: 'Speeddates'
-    },
-    {
-        title: 'Welkomstdrankje',
-        description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. ',
-        time: '17:00',
-        location: 'FC Den Bosch',
-        type: 'Netwerkborrel'
-    },
-    {
-        title: 'BOB Connect',
-        description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. ',
-        time: '18:00',
-        location: 'FC Den Bosch',
-        type: 'Netwerkborrel'
-    },
-    {
-        title: 'Culinaire verrasing',
-        description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. ',
-        time: '19:00',
-        location: 'FC Den Bosch',
-        type: 'Netwerkborrel'
-    },
-    {
-        title: 'BOB Soul',
-        description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. ',
-        time: '20:00',
-        location: 'FC Den Bosch',
-        type: 'Netwerkborrel'
     },
     {
         title: 'Einde',
-        description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. ',
-        time: '23:00',
-        location: 'FC Den Bosch',
-        type: 'Netwerkborrel'
-    }
+        description: ' Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+        time: '16:00',
+        location: 'Stratenlaan 29',
+        type: 'Speeddates'
+    },
 ]
 
 const Program = () =>
@@ -81,7 +53,7 @@ const Program = () =>
                 </div>
             </div>
 
-            <div className={'row small-2 medium-3'}>
+            <div className={'row small-2 medium-4'}>
                 {data.map((element, index) => 
                     (
                         <div key={index}>
@@ -89,9 +61,9 @@ const Program = () =>
                                 <h3 className={style.title}>
                                     {index + 1}. {element.title}
                                 </h3>
-        
+
                                 <div className={'spacer-vertical'} />
-        
+
                                 <p className={style.description}>
                                     {element.description}
                                 </p>
