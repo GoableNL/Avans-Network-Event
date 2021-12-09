@@ -5,28 +5,28 @@ const data =
 [
     {
         title: 'Verzamelen',
-        description: ' Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+        description: '...',
         time: '14:00',
         location: 'Stratenlaan 29',
         type: 'Speeddates'
     },
     {
         title: 'Verzamelen Ondernemers',
-        description: ' Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+        description: '...',
         time: '14:30',
         location: 'Stratenlaan 29',
         type: 'Speeddates'
     },
     {
         title: 'Start Speeddates',
-        description: ' Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+        description: '...',
         time: '14:45',
         location: 'Stratenlaan 29',
         type: 'Speeddates'
     },
     {
         title: 'Einde',
-        description: ' Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+        description: '...',
         time: '16:00',
         location: 'Stratenlaan 29',
         type: 'Speeddates'
@@ -40,13 +40,13 @@ const Program = () =>
             <div className={'row medium-2'}>
                 <div>
                     <h2>
-                        Programma
+                        Het programma
                     </h2>
 
                     <div className={'spacer-vertical-small'} />
 
                     <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                        Tijdens de speeddate krijgen de leerlingen de kans om kort de ondernemers te spreken en te ondervragen. Na een bepaalde tijd draai je door.
                     </p>
 
                     <div className={'spacer-vertical-large'} />

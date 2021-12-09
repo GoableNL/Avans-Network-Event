@@ -32,8 +32,8 @@ const Page = () =>
             <Starting active={starting} />
             <Topper />
             <Program />
-            <Entrepreneurs />
-            <CallToAction />
+            {/*<Entrepreneurs />*/}
+            {/*<CallToAction />*/}
             <Partners />
         </Layout>
     );
