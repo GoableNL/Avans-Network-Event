@@ -52,7 +52,7 @@ const Topper = () =>
 
                         <div className={'spacer-vertical-big'} />
 
-                        <div className={'button'} onClick={() => document.getElementById('entrepreneurs').scrollIntoView()}>
+                        <div className={'button'} onClick={() => document.getElementById('program').scrollIntoView()}>
                             <ArrowCircleDownIcon height={20} />
 
                             <div className={'spacer-horizontal-small'} />
