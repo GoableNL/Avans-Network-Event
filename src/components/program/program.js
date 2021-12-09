@@ -6,14 +6,14 @@ const data =
     {
         title: 'Verzamelen',
         description: '...',
-        time: '14:00',
+        time: '14:30',
         location: 'Stratenlaan 29',
         type: 'Speeddates'
     },
     {
         title: 'Verzamelen Ondernemers',
         description: '...',
-        time: '14:30',
+        time: '15:00',
         location: 'Stratenlaan 29',
         type: 'Speeddates'
     },
