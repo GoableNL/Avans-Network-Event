@@ -45,7 +45,7 @@ const Topper = () =>
                         <p>
                             Welkom bij de aller eerste editie van het Avans Network Event!
                             We gaan beginnen met een korte introductie, gevold door de speeddates.
-                            Helaas kunnen we de borrel niet door laten gaan vanwegen de coronamaatregelen.
+                            Helaas kunnen we de borrel niet door laten gaan vanwege de coronamaatregelen.
                             Het programma is daarom iets aangepast! Maar dat maakt ons niet minder enthousiast!
                             We sluiten daarom na de speeddate af met een gezamelijk woordje.
                         </p>
@@ -90,7 +90,7 @@ const Topper = () =>
                                     <div className={'spacer-horizontal-small'} />
 
                                     <span className={style.title}>
-                                        Statenlaan 29
+                                        Statenlaan 29, 5223 LA
                                     </span>
                                 </div>
                             </a>
