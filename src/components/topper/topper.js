@@ -79,7 +79,7 @@ const Topper = () =>
                                 <div className={'spacer-horizontal-small'} />
 
                                 <span className={style.title}>
-                                    13:30
+                                    14:30
                                 </span>
                             </div>
 
